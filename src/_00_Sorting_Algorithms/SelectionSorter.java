@@ -23,8 +23,10 @@ public class SelectionSorter extends Sorter {
 				//   element at index, then set index equal to j
 				if (array[j] < array[index]) {
 					index = j;
+					
 				}
 			}	
+			System.out.println(index);
 			//5. swap the array element at index with the array element at i
 			int temp = array[i];
 			array[i] = array[index];
